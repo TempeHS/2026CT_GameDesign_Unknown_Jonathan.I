@@ -1,13 +1,15 @@
 using UnityEngine;
 
-public class KillZone : MonoBehaviour
+public class KillBlock : MonoBehaviour
 {
+    public UIManager uiManager;
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            // Call your death system here
-            RunManager.Instance.OnPlayerDeath();
+            Destroy(other.gameObject);
+            uiManager.ShowPopup("You Died!");
         }
     }
 }
