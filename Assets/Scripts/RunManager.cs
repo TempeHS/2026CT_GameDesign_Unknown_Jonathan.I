@@ -12,6 +12,7 @@ public class RunManager : MonoBehaviour
     public Transform spawnPoint;
     public GameObject playerPrefab;
     private GameObject currentPlayer;
+    public Transform CurrentPlayerTransform => currentPlayer != null ? currentPlayer.transform : null;
 
     private void Awake()
     {
