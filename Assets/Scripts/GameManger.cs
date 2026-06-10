@@ -14,6 +14,9 @@ public class GameManager : MonoBehaviour
         playerInstance = Instantiate(playerPrefab, startPoint.position, Quaternion.identity);
 
         // Assign camera target
-        cameraFollow.target = playerInstance.transform;
+        if (cameraFollow != null)
+        {
+            cameraFollow.target = playerInstance.transform;
+        }
     }
 }
