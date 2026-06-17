@@ -38,6 +38,16 @@ public class PlayerMovement : MonoBehaviour
     public TrailRenderer tr;
     public ParticleSystem jumpParticles;
 
+    [Header("Dash Sprites")]
+    public SpriteRenderer playerSprite;
+    public Sprite greenSprite; // dash ready
+    public Sprite redSprite;   // dash cooldown
+
+    private void Start()
+    {
+        playerSprite.sprite = greenSprite; // start green
+    }
+
     private void Update()
     {
         if (isDashing)
@@ -151,9 +161,13 @@ public class PlayerMovement : MonoBehaviour
         canDash = false;
         isDashing = true;
 
+        // turn RED when dash starts
+        playerSprite.sprite = redSprite;
+
         float originalGravity = rb.gravityScale;
         rb.gravityScale = 0f;
 
+        // dash in facing direction
         rb.linearVelocity = new Vector2(transform.localScale.x * dashingPower, 0f);
         tr.emitting = true;
 
@@ -163,8 +177,20 @@ public class PlayerMovement : MonoBehaviour
         rb.gravityScale = originalGravity;
         isDashing = false;
 
+        // wait for cooldown
         yield return new WaitForSeconds(dashingCooldown);
+
+        // turn GREEN when dash is ready again
+        playerSprite.sprite = greenSprite;
+
         canDash = true;
     }
-}
 
+    // ⭐ FREEZE PLAYER AFTER FINISH
+    public void FreezePlayer()
+    {
+        rb.linearVelocity = Vector2.zero;
+        rb.gravityScale = 0f;
+        enabled = false; // disables movement script
+    }
+}

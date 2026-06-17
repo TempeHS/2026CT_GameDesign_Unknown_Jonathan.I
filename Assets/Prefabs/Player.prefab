@@ -5036,8 +5036,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -6888756438569675735, guid: 0404414f6b2d20e4bab07825cd0dfa7a, type: 3}
-  m_Color: {r: 0, g: 1, b: 0, a: 1}
+  m_Sprite: {fileID: 5268476828356764303, guid: f538ba074767d1546b42671fc441a767, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -5151,6 +5151,9 @@ MonoBehaviour:
     m_Bits: 64
   tr: {fileID: 4953927854784199413}
   jumpParticles: {fileID: 7703480683960876256}
+  playerSprite: {fileID: 1621260056667301698}
+  greenSprite: {fileID: 5268476828356764303, guid: f538ba074767d1546b42671fc441a767, type: 3}
+  redSprite: {fileID: -5328496133515097166, guid: 867a9fd89f1506b4886c7b59dc55e6ac, type: 3}
 --- !u!96 &4953927854784199413
 TrailRenderer:
   serializedVersion: 3

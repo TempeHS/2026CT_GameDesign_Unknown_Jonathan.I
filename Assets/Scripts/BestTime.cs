@@ -1,13 +1,18 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class BestTime : MonoBehaviour
 {
     public TMP_Text bestTimeText;
+    private string key;
 
     void Start()
     {
-        float best = PlayerPrefs.GetFloat("BestTime", 999999f);
+        // Unique key per level
+        key = "BestTime_" + SceneManager.GetActiveScene().name;
+
+        float best = PlayerPrefs.GetFloat(key, 999999f);
 
         if (best < 999999f)
             bestTimeText.text = "Best: " + FormatTime(best);
@@ -17,11 +22,11 @@ public class BestTime : MonoBehaviour
 
     public void TrySetBest(float newTime)
     {
-        float best = PlayerPrefs.GetFloat("BestTime", 999999f);
+        float best = PlayerPrefs.GetFloat(key, 999999f);
 
         if (newTime < best)
         {
-            PlayerPrefs.SetFloat("BestTime", newTime);
+            PlayerPrefs.SetFloat(key, newTime);
             bestTimeText.text = "Best: " + FormatTime(newTime);
         }
     }
