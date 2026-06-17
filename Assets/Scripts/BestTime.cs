@@ -9,7 +9,6 @@ public class BestTime : MonoBehaviour
 
     void Start()
     {
-        // Unique key per level
         key = "BestTime_" + SceneManager.GetActiveScene().name;
 
         float best = PlayerPrefs.GetFloat(key, 999999f);

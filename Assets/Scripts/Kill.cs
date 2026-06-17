@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class KillBlock : MonoBehaviour
+public class Kill : MonoBehaviour
 {
     public UIManager uiManager;
 
@@ -8,8 +8,8 @@ public class KillBlock : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Destroy(other.gameObject);
-            uiManager.ShowPopup("You Died!");
+            uiManager.ShowDeathPopup();
+            other.GetComponent<PlayerMovement>().FreezePlayer();
         }
     }
 }
