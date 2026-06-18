@@ -17,6 +17,25 @@ public class UIManager : MonoBehaviour
         panel.SetActive(false);
     }
 
+    private void Update()
+    {
+        // Only allow keyboard controls when popup is visible
+        if (panel.activeSelf)
+        {
+            // ENTER = Restart level
+            if (Input.GetKeyDown(KeyCode.Return))
+            {
+                RestartGame();
+            }
+
+            // SPACE = Next level (only if next level button is active)
+            if (Input.GetKeyDown(KeyCode.Space) && nextLevelButton.activeSelf)
+            {
+                NextLevel();
+            }
+        }
+    }
+
     // LEVEL COMPLETE POPUP
     public void ShowFinishOptions(float finalTime, bool allowNext)
     {

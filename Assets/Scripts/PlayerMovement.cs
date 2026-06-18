@@ -186,7 +186,7 @@ public class PlayerMovement : MonoBehaviour
         canDash = true;
     }
 
-    // ⭐ FREEZE PLAYER AFTER FINISH
+    //  FREEZE PLAYER AFTER FINISH
     public void FreezePlayer()
     {
         rb.linearVelocity = Vector2.zero;
