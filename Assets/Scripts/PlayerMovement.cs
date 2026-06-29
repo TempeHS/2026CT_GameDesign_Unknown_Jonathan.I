@@ -12,8 +12,8 @@ public class PlayerMovement : MonoBehaviour
     [Header("Momentum System")]
     public float groundMaxMomentum = 2.46f;
     public float airMaxMomentum = 2.51f;
-    public float accelerationRate = .089f;   // slower exponential acceleration
-    public float decayRate = 10f;            // exponential decay
+    public float accelerationRate = 5.12f;
+    public float decayRate = 10f;
     private float momentum = 1f;
     private float holdTime = 0f;
     private int lastMoveDir = 0;
@@ -62,13 +62,20 @@ public class PlayerMovement : MonoBehaviour
         if (isDashing)
             return;
 
+        // Restart anytime with Enter
+        if (Input.GetKeyDown(KeyCode.Return))
+        {
+            UnityEngine.SceneManagement.SceneManager.LoadScene(
+                UnityEngine.SceneManagement.SceneManager.GetActiveScene().name
+            );
+        }
+
         horizontal = Input.GetAxisRaw("Horizontal");
 
         HandleMomentum();
         HandleWallSlide();
         HandleWallJump();
 
-        // DEBUG MOMENTUM + SPEED
         Debug.Log(
             "Momentum: " + momentum.ToString("F3") +
             " | SpeedX: " + rb.linearVelocity.x.ToString("F3") +
@@ -78,7 +85,6 @@ public class PlayerMovement : MonoBehaviour
         // Normal Jump
         if (Input.GetButtonDown("Jump") && !isWallSliding && jumpCount < maxJumps)
         {
-            // ⭐ Lose 10% momentum on jump
             momentum *= 0.9f;
 
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpingPower);
@@ -87,13 +93,11 @@ public class PlayerMovement : MonoBehaviour
             jumpCount++;
         }
 
-        // Reset jumps when grounded
         if (IsGrounded() && rb.linearVelocity.y <= 0.01f)
         {
             jumpCount = 0;
         }
 
-        // Dash
         if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
         {
             StartCoroutine(Dash());
@@ -111,7 +115,6 @@ public class PlayerMovement : MonoBehaviour
         {
             float speed = baseSpeed;
 
-            // Air movement is 4% faster
             if (!IsGrounded())
                 speed *= 1.04f;
 
@@ -128,7 +131,6 @@ public class PlayerMovement : MonoBehaviour
 
         float maxMomentum = IsGrounded() ? groundMaxMomentum : airMaxMomentum;
 
-        // No input → decay momentum
         if (moveDir == 0)
         {
             momentum *= Mathf.Exp(-decayRate * Time.deltaTime);
@@ -137,7 +139,6 @@ public class PlayerMovement : MonoBehaviour
             return;
         }
 
-        // Changing direction → strong decay
         if (lastMoveDir != 0 && moveDir != lastMoveDir)
         {
             momentum *= Mathf.Exp(-decayRate * Time.deltaTime);
@@ -145,15 +146,12 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
-            // Holding same direction → exponential acceleration
             holdTime += Time.deltaTime;
             float target = maxMomentum * (1f - Mathf.Exp(-accelerationRate * holdTime));
             momentum = Mathf.Lerp(momentum, target, 0.5f);
         }
 
         lastMoveDir = moveDir;
-
-        // Clamp
         momentum = Mathf.Clamp(momentum, 1f, maxMomentum);
     }
 
@@ -183,7 +181,6 @@ public class PlayerMovement : MonoBehaviour
         {
             isWallJumping = true;
 
-            // ⭐ Lose 10% momentum on wall jump too
             momentum *= 0.9f;
 
             float direction = isFacingRight ? -1 : 1;
@@ -203,7 +200,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
     // -------------------------
-    // DASH
+    // DASH (FAST → SLOW + JUMP CANCEL)
     // -------------------------
     private IEnumerator Dash()
     {
@@ -225,10 +222,50 @@ public class PlayerMovement : MonoBehaviour
 
         dashDir.Normalize();
 
-        rb.linearVelocity = dashDir * dashPower;
+        // Dash Strength Rules
+        float dashStrength = dashPower;
+
+        if (dashDir.x != 0 && dashDir.y != 0)
+        {
+            dashStrength *= 0.75f; // all diagonals 75%
+        }
+        else if (dashDir.y > 0)
+        {
+            dashStrength *= 0.60f; // straight up 60%
+        }
+        else
+        {
+            dashStrength = dashPower; // horizontal + straight down = 100%
+        }
+
         tr.emitting = true;
 
-        yield return new WaitForSeconds(dashTime);
+        float t = 0f;
+
+        // Improved dash easing (fast → slow but still long)
+        while (t < dashTime)
+        {
+            t += Time.deltaTime;
+
+            // Start at 135% speed → end at 65% speed
+            float ease = Mathf.Lerp(1.35f, 0.65f, t / dashTime);
+
+            rb.linearVelocity = dashDir * dashStrength * ease;
+
+            // Jump cancels dash
+            if (Input.GetButtonDown("Jump"))
+            {
+                isDashing = false;
+                rb.gravityScale = originalGravity;
+
+                rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpingPower);
+                jumpParticles.Stop();
+                jumpParticles.Play();
+                break;
+            }
+
+            yield return null;
+        }
 
         tr.emitting = false;
         rb.gravityScale = originalGravity;
@@ -250,13 +287,12 @@ public class PlayerMovement : MonoBehaviour
         if (sameDir)
         {
             if (slightAngle)
-                momentum *= 0.9f; // lose 10%
+                momentum *= 0.9f;
             else
-                momentum *= 1.1f; // gain 10%
+                momentum *= 1.1f;
         }
         else
         {
-            // Wrong direction → exponential decay to 0
             momentum *= Mathf.Exp(-12f * Time.deltaTime);
         }
 
@@ -291,9 +327,6 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    // -------------------------
-    // FREEZE PLAYER
-    // -------------------------
     public void FreezePlayer()
     {
         rb.linearVelocity = Vector2.zero;
