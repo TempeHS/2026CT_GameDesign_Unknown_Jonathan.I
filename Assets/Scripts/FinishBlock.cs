@@ -14,10 +14,10 @@ public class FinishBlock : MonoBehaviour
             float finalTime = timer.StopTimer();
             bestTime.TrySetBest(finalTime);
 
-            other.GetComponent<PlayerMovement>().FreezePlayer();
+            PlayerMovement pm = other.GetComponent<PlayerMovement>();
+            pm.FreezePlayer();   // ⭐ freezes movement script + physics
 
             string sceneName = SceneManager.GetActiveScene().name;
-
             bool allowNext = sceneName != "TestLevel";
 
             uiManager.ShowFinishOptions(finalTime, allowNext);

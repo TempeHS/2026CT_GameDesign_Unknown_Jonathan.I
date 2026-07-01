@@ -1,0 +1,3029 @@
+fileFormatVersion: 2
+guid: fd542ad0710d4eb4499c503831d829e9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6282849603886109774
+    second: particle-effect_0
+  - first:
+      213: -985622819457493075
+    second: particle-effect_1
+  - first:
+      213: 6151408911262484095
+    second: particle-effect_2
+  - first:
+      213: 5075511495449352524
+    second: particle-effect_3
+  - first:
+      213: -310311571604396392
+    second: particle-effect_4
+  - first:
+      213: 4565003845971804944
+    second: particle-effect_5
+  - first:
+      213: 2557072505607797703
+    second: particle-effect_6
+  - first:
+      213: -2539352454649959050
+    second: particle-effect_7
+  - first:
+      213: -2413235182879538946
+    second: particle-effect_8
+  - first:
+      213: -4349644873885878772
+    second: particle-effect_9
+  - first:
+      213: -2739888744215772951
+    second: particle-effect_10
+  - first:
+      213: 7875630553223898964
+    second: particle-effect_11
+  - first:
+      213: 2033388679164155257
+    second: particle-effect_12
+  - first:
+      213: 2129707126759848480
+    second: particle-effect_13
+  - first:
+      213: -6871325181577490547
+    second: particle-effect_14
+  - first:
+      213: -8528007061318132187
+    second: particle-effect_15
+  - first:
+      213: -9132347567688912297
+    second: particle-effect_16
+  - first:
+      213: 4153869273466737409
+    second: particle-effect_17
+  - first:
+      213: -4280501413952776375
+    second: particle-effect_18
+  - first:
+      213: 6072120573252303062
+    second: particle-effect_19
+  - first:
+      213: -4772561029457779881
+    second: particle-effect_20
+  - first:
+      213: 7952559908707577702
+    second: particle-effect_21
+  - first:
+      213: -8964351982696449846
+    second: particle-effect_22
+  - first:
+      213: 3743082782720277635
+    second: particle-effect_23
+  - first:
+      213: 1132025030009021496
+    second: particle-effect_24
+  - first:
+      213: 5087970242529256980
+    second: particle-effect_25
+  - first:
+      213: 6450212769500321148
+    second: particle-effect_26
+  - first:
+      213: -2920718119042886638
+    second: particle-effect_27
+  - first:
+      213: 4129842222841086220
+    second: particle-effect_28
+  - first:
+      213: -8981939351440148692
+    second: particle-effect_29
+  - first:
+      213: 8928535309422919907
+    second: particle-effect_30
+  - first:
+      213: -9148906719041994775
+    second: particle-effect_31
+  - first:
+      213: -1738306481254003644
+    second: particle-effect_32
+  - first:
+      213: -813334336648891686
+    second: particle-effect_33
+  - first:
+      213: 3552747196485347966
+    second: particle-effect_34
+  - first:
+      213: -2559713938767370720
+    second: particle-effect_35
+  - first:
+      213: -8052457675504513782
+    second: particle-effect_36
+  - first:
+      213: -1762142375848057477
+    second: particle-effect_37
+  - first:
+      213: 3861141136005953993
+    second: particle-effect_38
+  - first:
+      213: 7605791119878239586
+    second: particle-effect_39
+  - first:
+      213: -7588665578445650101
+    second: particle-effect_40
+  - first:
+      213: -7903022120047487003
+    second: particle-effect_41
+  - first:
+      213: 7474857132217074369
+    second: particle-effect_42
+  - first:
+      213: -6433584678381957565
+    second: particle-effect_43
+  - first:
+      213: 1748231713464714257
+    second: particle-effect_44
+  - first:
+      213: 1194132408306633557
+    second: particle-effect_45
+  - first:
+      213: -2450854360136959565
+    second: particle-effect_46
+  - first:
+      213: -6982565209133707869
+    second: particle-effect_47
+  - first:
+      213: -3941499255346069566
+    second: particle-effect_48
+  - first:
+      213: -8416675161795526050
+    second: particle-effect_49
+  - first:
+      213: 7208866347283036138
+    second: particle-effect_50
+  - first:
+      213: 6640564582083963485
+    second: particle-effect_51
+  - first:
+      213: 1927306244552569939
+    second: particle-effect_52
+  - first:
+      213: 5735952516843352819
+    second: particle-effect_53
+  - first:
+      213: -9174359177926793615
+    second: particle-effect_54
+  - first:
+      213: -6263194969352928682
+    second: particle-effect_55
+  - first:
+      213: 1324901163884400115
+    second: particle-effect_56
+  - first:
+      213: -2446770072796567913
+    second: particle-effect_57
+  - first:
+      213: -768983775676774039
+    second: particle-effect_58
+  - first:
+      213: 2959356036280111456
+    second: particle-effect_59
+  - first:
+      213: 6388602330594115891
+    second: particle-effect_60
+  - first:
+      213: -1655144234126528487
+    second: particle-effect_61
+  - first:
+      213: -5657565459591215276
+    second: particle-effect_62
+  - first:
+      213: -3836422905133036419
+    second: particle-effect_63
+  - first:
+      213: -6843882340603338483
+    second: particle-effect_64
+  - first:
+      213: -4501090533101138200
+    second: particle-effect_65
+  - first:
+      213: 1725907884175338535
+    second: particle-effect_66
+  - first:
+      213: -7510535705095262036
+    second: particle-effect_67
+  - first:
+      213: -5925857731731146209
+    second: particle-effect_68
+  - first:
+      213: 2637217055699304967
+    second: particle-effect_69
+  - first:
+      213: 3768507269838336199
+    second: particle-effect_70
+  - first:
+      213: 6725782038304107316
+    second: particle-effect_71
+  - first:
+      213: -4519806669162820992
+    second: particle-effect_72
+  - first:
+      213: -2769617963452587475
+    second: particle-effect_73
+  - first:
+      213: 4493147994088725627
+    second: particle-effect_74
+  - first:
+      213: -3765663464370813511
+    second: particle-effect_75
+  - first:
+      213: -6307382667396203818
+    second: particle-effect_76
+  - first:
+      213: 7605240194419410436
+    second: particle-effect_77
+  - first:
+      213: 2747823947533982507
+    second: particle-effect_78
+  - first:
+      213: -4243092753055175617
+    second: particle-effect_79
+  - first:
+      213: 6261634679328057789
+    second: particle-effect_80
+  - first:
+      213: -3579322733294443086
+    second: particle-effect_81
+  - first:
+      213: -6813906041822363832
+    second: particle-effect_82
+  - first:
+      213: 6633857334430970136
+    second: particle-effect_83
+  - first:
+      213: -6704715480095549590
+    second: particle-effect_84
+  - first:
+      213: -6507486914896423327
+    second: particle-effect_85
+  - first:
+      213: -6411246759123807282
+    second: particle-effect_86
+  - first:
+      213: -4790341992912893493
+    second: particle-effect_87
+  - first:
+      213: 4322944332535993720
+    second: particle-effect_88
+  - first:
+      213: -3864835637944799183
+    second: particle-effect_89
+  - first:
+      213: -5664295289518294760
+    second: particle-effect_90
+  - first:
+      213: -8996636913735925729
+    second: particle-effect_91
+  - first:
+      213: 5791617193580001345
+    second: particle-effect_92
+  - first:
+      213: -2540584483275933032
+    second: particle-effect_93
+  - first:
+      213: -8597156384991166308
+    second: particle-effect_94
+  - first:
+      213: 6707925379397898218
+    second: particle-effect_95
+  - first:
+      213: 4065630963091116287
+    second: particle-effect_96
+  - first:
+      213: 6998901441719223020
+    second: particle-effect_97
+  - first:
+      213: -2075733603445160774
+    second: particle-effect_98
+  - first:
+      213: 839265061531342366
+    second: particle-effect_99
+  - first:
+      213: 6965585002947175299
+    second: particle-effect_100
+  - first:
+      213: -4672524822130173986
+    second: particle-effect_101
+  - first:
+      213: -5271134199524801450
+    second: particle-effect_102
+  - first:
+      213: 7750509051314879006
+    second: particle-effect_103
+  - first:
+      213: 2181146636152095270
+    second: particle-effect_104
+  - first:
+      213: -8249905481388474573
+    second: particle-effect_105
+  - first:
+      213: -8175387656855941942
+    second: particle-effect_106
+  - first:
+      213: -8765051792990825297
+    second: particle-effect_107
+  - first:
+      213: -1825913585476829163
+    second: particle-effect_108
+  - first:
+      213: 4627468320280516224
+    second: particle-effect_109
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: particle-effect_0
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 537
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bb2a2fb295dec8a0800000000000000
+      internalID: -6282849603886109774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_1
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 526
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da797bb844d5252f0800000000000000
+      internalID: -985622819457493075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_2
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 474
+        width: 49
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7609ff20d13e5550800000000000000
+      internalID: 6151408911262484095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_3
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 511
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c499bab50d6df6640800000000000000
+      internalID: 5075511495449352524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_4
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 514
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 896a3dc054d81bbf0800000000000000
+      internalID: -310311571604396392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_5
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 512
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 013017dbfc62a5f30800000000000000
+      internalID: 4565003845971804944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_6
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 468
+        width: 24
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cbbba955eb8c7320800000000000000
+      internalID: 2557072505607797703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_7
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 469
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67da215856862ccd0800000000000000
+      internalID: -2539352454649959050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_8
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 164
+        width: 245
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef08df41367728ed0800000000000000
+      internalID: -2413235182879538946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_9
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 470
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c06fee85805f2a3c0800000000000000
+      internalID: -4349644873885878772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_10
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 467
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e08de424b5f9f9d0800000000000000
+      internalID: -2739888744215772951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_11
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 442
+        width: 47
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 457af13e24cdb4d60800000000000000
+      internalID: 7875630553223898964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_12
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 461
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97551e7fa3c083c10800000000000000
+      internalID: 2033388679164155257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_13
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 460
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02a732e195d3e8d10800000000000000
+      internalID: 2129707126759848480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_14
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 445
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8f80e7372624a0a0800000000000000
+      internalID: -6871325181577490547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_15
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 454
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52e1c14d2ce66a980800000000000000
+      internalID: -8528007061318132187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_16
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 453
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 752ff7eb542634180800000000000000
+      internalID: -9132347567688912297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_17
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 445
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1031568981285a930800000000000000
+      internalID: 4153869273466737409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_18
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 445
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94799c0a4aa9894c0800000000000000
+      internalID: -4280501413952776375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_19
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 450
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d87b0a6d71844450800000000000000
+      internalID: 6072120573252303062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_20
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 438
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 753eb42a70574cdb0800000000000000
+      internalID: -4772561029457779881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_21
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 438
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66f278d3a1b2d5e60800000000000000
+      internalID: 7952559908707577702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_22
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 419
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac83fcded59389380800000000000000
+      internalID: -8964351982696449846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_23
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 419
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38c3cec85f912f330800000000000000
+      internalID: 3743082782720277635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_24
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 414
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 834e98e54c2c5bf00800000000000000
+      internalID: 1132025030009021496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_25
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 383
+        width: 11
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 416e6b57af91c9640800000000000000
+      internalID: 5087970242529256980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_26
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 408
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7551c3d652c38950800000000000000
+      internalID: 6450212769500321148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_27
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 408
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 214d66968568777d0800000000000000
+      internalID: -2920718119042886638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_28
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 410
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c014adeee95205930800000000000000
+      internalID: 4129842222841086220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_29
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 408
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c27be4b8fbdb95380800000000000000
+      internalID: -8981939351440148692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_30
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 389
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e08faafe8788eb70800000000000000
+      internalID: 8928535309422919907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_31
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 387
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ef3150efcd880180800000000000000
+      internalID: -9148906719041994775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_32
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 304
+        width: 40
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44c881a177b40e7e0800000000000000
+      internalID: -1738306481254003644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_33
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 379
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad23a64eab476b4f0800000000000000
+      internalID: -813334336648891686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_34
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 368
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7a264f70c4ed4130800000000000000
+      internalID: 3552747196485347966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_35
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 376
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 026a7211cb11a7cd0800000000000000
+      internalID: -2559713938767370720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_36
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 362
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0d8faa686cef3090800000000000000
+      internalID: -8052457675504513782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_37
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 347
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b75e9eb68dc9b87e0800000000000000
+      internalID: -1762142375848057477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_38
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 355
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c9784fe767859530800000000000000
+      internalID: 3861141136005953993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_39
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 340
+        width: 34
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 265b920f9b23d8960800000000000000
+      internalID: 7605791119878239586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_40
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 329
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b474385ecd4afa690800000000000000
+      internalID: -7588665578445650101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_41
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 318
+        width: 40
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e7d38af043d25290800000000000000
+      internalID: -7903022120047487003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_42
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 310
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c2089055f60cb760800000000000000
+      internalID: 7474857132217074369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_43
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 320
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34ec5a452d057b6a0800000000000000
+      internalID: -6433584678381957565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_44
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 307
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 114032a1b77f24810800000000000000
+      internalID: 1748231713464714257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_45
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 322
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55b06eb3919629010800000000000000
+      internalID: 1194132408306633557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_46
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 317
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b9b1d3d1f0dcfdd0800000000000000
+      internalID: -2450854360136959565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_47
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 311
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ad859000f1f81f90800000000000000
+      internalID: -6982565209133707869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_48
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 298
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cf71aa6f4bfc49c0800000000000000
+      internalID: -3941499255346069566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_49
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 293
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e520357a886f13b80800000000000000
+      internalID: -8416675161795526050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_50
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 276
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae7b217afb90b0460800000000000000
+      internalID: 7208866347283036138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_51
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 285
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5aa72fdd46082c50800000000000000
+      internalID: 6640564582083963485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_52
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 273
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 354b2ff61da2fba10800000000000000
+      internalID: 1927306244552569939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_53
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 252
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f2b4f67c623a9f40800000000000000
+      internalID: 5735952516843352819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_54
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 261
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17624dd7fe02ea080800000000000000
+      internalID: -9174359177926793615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_55
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 250
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65284b4fb59a419a0800000000000000
+      internalID: -6263194969352928682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_56
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 237
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fdc4d3c69ef26210800000000000000
+      internalID: 1324901163884400115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_57
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 239
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79667e315935b0ed0800000000000000
+      internalID: -2446770072796567913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_58
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 231
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9694fbc84550455f0800000000000000
+      internalID: -768983775676774039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_59
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 200
+        width: 51
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 061526ab2aeb11920800000000000000
+      internalID: 2959356036280111456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_60
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 196
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3318b4ea8ffd8a850800000000000000
+      internalID: 6388602330594115891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_61
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 200
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9103ad0a61fb709e0800000000000000
+      internalID: -1655144234126528487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_62
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 214
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 457cb87803a4c71b0800000000000000
+      internalID: -5657565459591215276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_63
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 176
+        width: 57
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7c8f5ba1b942cac0800000000000000
+      internalID: -3836422905133036419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_64
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 187
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d01e4cb8545a501a0800000000000000
+      internalID: -6843882340603338483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_65
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 192
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ee02a8020ae881c0800000000000000
+      internalID: -4501090533101138200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_66
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 180
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72c215f8318a3f710800000000000000
+      internalID: 1725907884175338535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_67
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 171
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca0b8e8919735c790800000000000000
+      internalID: -7510535705095262036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_68
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 182
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1ab9ae1acf13cda0800000000000000
+      internalID: -5925857731731146209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_69
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 178
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7020f8880f6499420800000000000000
+      internalID: 2637217055699304967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_70
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 177
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c0f030456d6c4430800000000000000
+      internalID: 3768507269838336199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_71
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 167
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43ba1dd0127c65d50800000000000000
+      internalID: 6725782038304107316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_72
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 160
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08acb1708cb6641c0800000000000000
+      internalID: -4519806669162820992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_73
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 170
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d222ed4e2275099d0800000000000000
+      internalID: -2769617963452587475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_74
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 163
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7cdaee7b4eda5e30800000000000000
+      internalID: 4493147994088725627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_75
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 155
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b5c28ec70dadbbc0800000000000000
+      internalID: -3765663464370813511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_76
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 151
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dab467c1eca778a0800000000000000
+      internalID: -6307382667396203818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_77
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 157
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40644eb99ad3b8960800000000000000
+      internalID: 7605240194419410436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_78
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 159
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2b131a525b322620800000000000000
+      internalID: 2747823947533982507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_79
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 126
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3cac193f918d15c0800000000000000
+      internalID: -4243092753055175617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_80
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 156
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db9ad96b09bc5e650800000000000000
+      internalID: 6261634679328057789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_81
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 80
+        width: 76
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b5218920f0b35ec0800000000000000
+      internalID: -3579322733294443086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_82
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 122
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84f3a4c7e842071a0800000000000000
+      internalID: -6813906041822363832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_83
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 142
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 811b0651912301c50800000000000000
+      internalID: 6633857334430970136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_84
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 138
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6797d04bc014f2a0800000000000000
+      internalID: -6704715480095549590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_85
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 113
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16698190123c0b5a0800000000000000
+      internalID: -6507486914896423327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_86
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 114
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec31d037a0da607a0800000000000000
+      internalID: -6411246759123807282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_87
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 90
+        width: 46
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc94ac77659458db0800000000000000
+      internalID: -4790341992912893493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_88
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 75
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 875989c67fe2efb30800000000000000
+      internalID: 4322944332535993720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_89
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 95
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 130b70dc6785d5ac0800000000000000
+      internalID: -3864835637944799183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_90
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 85
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819f755e1716461b0800000000000000
+      internalID: -5664295289518294760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_91
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 91
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f108a97a466852380800000000000000
+      internalID: -8996636913735925729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_92
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 13
+        width: 103
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 148716af625ff5050800000000000000
+      internalID: 5791617193580001345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_93
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 0
+        width: 41
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89af7708fd70ebcd0800000000000000
+      internalID: -2540584483275933032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_94
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 77
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c90ce1a41d3c0b880800000000000000
+      internalID: -8597156384991166308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_95
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 36
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aefc6daa796571d50800000000000000
+      internalID: 6707925379397898218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_96
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 48
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff010eef1d50c6830800000000000000
+      internalID: 4065630963091116287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_97
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 68
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce2c4ab87c7112160800000000000000
+      internalID: 6998901441719223020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_98
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 50
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab44f4e09438133e0800000000000000
+      internalID: -2075733603445160774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_99
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 49
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e16d8f8702ba5ab00800000000000000
+      internalID: 839265061531342366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_100
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 23
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3836479a7aabaa060800000000000000
+      internalID: 6965585002947175299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_101
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 71
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed75cbc2e6bd72fb0800000000000000
+      internalID: -4672524822130173986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_102
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 15
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65449e98f5b29d6b0800000000000000
+      internalID: -5271134199524801450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_103
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 40
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1ab2101be65f8b60800000000000000
+      internalID: 7750509051314879006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_104
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 77
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62242e23f4df44e10800000000000000
+      internalID: 2181146636152095270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_105
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 46
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33fba4faca2728d80800000000000000
+      internalID: -8249905481388474573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_106
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 71
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acc0dfbbd303b8e80800000000000000
+      internalID: -8175387656855941942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_107
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 16
+        width: 58
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa491e065d74c5680800000000000000
+      internalID: -8765051792990825297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_108
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 4
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5100813a44d09a6e0800000000000000
+      internalID: -1825913585476829163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: particle-effect_109
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 4
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08691bf7be1183040800000000000000
+      internalID: 4627468320280516224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      particle-effect_0: -6282849603886109774
+      particle-effect_1: -985622819457493075
+      particle-effect_10: -2739888744215772951
+      particle-effect_100: 6965585002947175299
+      particle-effect_101: -4672524822130173986
+      particle-effect_102: -5271134199524801450
+      particle-effect_103: 7750509051314879006
+      particle-effect_104: 2181146636152095270
+      particle-effect_105: -8249905481388474573
+      particle-effect_106: -8175387656855941942
+      particle-effect_107: -8765051792990825297
+      particle-effect_108: -1825913585476829163
+      particle-effect_109: 4627468320280516224
+      particle-effect_11: 7875630553223898964
+      particle-effect_12: 2033388679164155257
+      particle-effect_13: 2129707126759848480
+      particle-effect_14: -6871325181577490547
+      particle-effect_15: -8528007061318132187
+      particle-effect_16: -9132347567688912297
+      particle-effect_17: 4153869273466737409
+      particle-effect_18: -4280501413952776375
+      particle-effect_19: 6072120573252303062
+      particle-effect_2: 6151408911262484095
+      particle-effect_20: -4772561029457779881
+      particle-effect_21: 7952559908707577702
+      particle-effect_22: -8964351982696449846
+      particle-effect_23: 3743082782720277635
+      particle-effect_24: 1132025030009021496
+      particle-effect_25: 5087970242529256980
+      particle-effect_26: 6450212769500321148
+      particle-effect_27: -2920718119042886638
+      particle-effect_28: 4129842222841086220
+      particle-effect_29: -8981939351440148692
+      particle-effect_3: 5075511495449352524
+      particle-effect_30: 8928535309422919907
+      particle-effect_31: -9148906719041994775
+      particle-effect_32: -1738306481254003644
+      particle-effect_33: -813334336648891686
+      particle-effect_34: 3552747196485347966
+      particle-effect_35: -2559713938767370720
+      particle-effect_36: -8052457675504513782
+      particle-effect_37: -1762142375848057477
+      particle-effect_38: 3861141136005953993
+      particle-effect_39: 7605791119878239586
+      particle-effect_4: -310311571604396392
+      particle-effect_40: -7588665578445650101
+      particle-effect_41: -7903022120047487003
+      particle-effect_42: 7474857132217074369
+      particle-effect_43: -6433584678381957565
+      particle-effect_44: 1748231713464714257
+      particle-effect_45: 1194132408306633557
+      particle-effect_46: -2450854360136959565
+      particle-effect_47: -6982565209133707869
+      particle-effect_48: -3941499255346069566
+      particle-effect_49: -8416675161795526050
+      particle-effect_5: 4565003845971804944
+      particle-effect_50: 7208866347283036138
+      particle-effect_51: 6640564582083963485
+      particle-effect_52: 1927306244552569939
+      particle-effect_53: 5735952516843352819
+      particle-effect_54: -9174359177926793615
+      particle-effect_55: -6263194969352928682
+      particle-effect_56: 1324901163884400115
+      particle-effect_57: -2446770072796567913
+      particle-effect_58: -768983775676774039
+      particle-effect_59: 2959356036280111456
+      particle-effect_6: 2557072505607797703
+      particle-effect_60: 6388602330594115891
+      particle-effect_61: -1655144234126528487
+      particle-effect_62: -5657565459591215276
+      particle-effect_63: -3836422905133036419
+      particle-effect_64: -6843882340603338483
+      particle-effect_65: -4501090533101138200
+      particle-effect_66: 1725907884175338535
+      particle-effect_67: -7510535705095262036
+      particle-effect_68: -5925857731731146209
+      particle-effect_69: 2637217055699304967
+      particle-effect_7: -2539352454649959050
+      particle-effect_70: 3768507269838336199
+      particle-effect_71: 6725782038304107316
+      particle-effect_72: -4519806669162820992
+      particle-effect_73: -2769617963452587475
+      particle-effect_74: 4493147994088725627
+      particle-effect_75: -3765663464370813511
+      particle-effect_76: -6307382667396203818
+      particle-effect_77: 7605240194419410436
+      particle-effect_78: 2747823947533982507
+      particle-effect_79: -4243092753055175617
+      particle-effect_8: -2413235182879538946
+      particle-effect_80: 6261634679328057789
+      particle-effect_81: -3579322733294443086
+      particle-effect_82: -6813906041822363832
+      particle-effect_83: 6633857334430970136
+      particle-effect_84: -6704715480095549590
+      particle-effect_85: -6507486914896423327
+      particle-effect_86: -6411246759123807282
+      particle-effect_87: -4790341992912893493
+      particle-effect_88: 4322944332535993720
+      particle-effect_89: -3864835637944799183
+      particle-effect_9: -4349644873885878772
+      particle-effect_90: -5664295289518294760
+      particle-effect_91: -8996636913735925729
+      particle-effect_92: 5791617193580001345
+      particle-effect_93: -2540584483275933032
+      particle-effect_94: -8597156384991166308
+      particle-effect_95: 6707925379397898218
+      particle-effect_96: 4065630963091116287
+      particle-effect_97: 6998901441719223020
+      particle-effect_98: -2075733603445160774
+      particle-effect_99: 839265061531342366
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

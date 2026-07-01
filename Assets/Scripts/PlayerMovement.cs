@@ -40,6 +40,8 @@ public class PlayerMovement : MonoBehaviour
     private bool canDash = true;
     private bool isDashing;
 
+    private Coroutine dashRoutine;   // ⭐ ADDED
+
     [Header("References")]
     public Rigidbody2D rb;
     public Transform groundCheck;
@@ -62,7 +64,6 @@ public class PlayerMovement : MonoBehaviour
         if (isDashing)
             return;
 
-        // Restart anytime with Enter
         if (Input.GetKeyDown(KeyCode.Return))
         {
             UnityEngine.SceneManagement.SceneManager.LoadScene(
@@ -76,13 +77,6 @@ public class PlayerMovement : MonoBehaviour
         HandleWallSlide();
         HandleWallJump();
 
-        Debug.Log(
-            "Momentum: " + momentum.ToString("F3") +
-            " | SpeedX: " + rb.linearVelocity.x.ToString("F3") +
-            " | SpeedMag: " + rb.linearVelocity.magnitude.ToString("F3")
-        );
-
-        // Normal Jump
         if (Input.GetButtonDown("Jump") && !isWallSliding && jumpCount < maxJumps)
         {
             momentum *= 0.9f;
@@ -100,7 +94,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
         {
-            StartCoroutine(Dash());
+            dashRoutine = StartCoroutine(Dash());   // ⭐ CHANGED
         }
 
         Flip();
@@ -122,9 +116,6 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    // -------------------------
-    // MOMENTUM SYSTEM
-    // -------------------------
     private void HandleMomentum()
     {
         int moveDir = horizontal > 0 ? 1 : horizontal < 0 ? -1 : 0;
@@ -155,9 +146,6 @@ public class PlayerMovement : MonoBehaviour
         momentum = Mathf.Clamp(momentum, 1f, maxMomentum);
     }
 
-    // -------------------------
-    // WALL SLIDE
-    // -------------------------
     private void HandleWallSlide()
     {
         if (IsWalled() && !IsGrounded() && Mathf.Abs(horizontal) > 0.1f)
@@ -172,9 +160,6 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    // -------------------------
-    // WALL JUMP
-    // -------------------------
     private void HandleWallJump()
     {
         if (isWallSliding && Input.GetButtonDown("Jump"))
@@ -199,9 +184,6 @@ public class PlayerMovement : MonoBehaviour
         isWallJumping = false;
     }
 
-    // -------------------------
-    // DASH (FAST → SLOW + JUMP CANCEL)
-    // -------------------------
     private IEnumerator Dash()
     {
         canDash = false;
@@ -222,37 +204,25 @@ public class PlayerMovement : MonoBehaviour
 
         dashDir.Normalize();
 
-        // Dash Strength Rules
         float dashStrength = dashPower;
 
         if (dashDir.x != 0 && dashDir.y != 0)
-        {
-            dashStrength *= 0.75f; // all diagonals 75%
-        }
+            dashStrength *= 0.75f;
         else if (dashDir.y > 0)
-        {
-            dashStrength *= 0.60f; // straight up 60%
-        }
-        else
-        {
-            dashStrength = dashPower; // horizontal + straight down = 100%
-        }
+            dashStrength *= 0.60f;
 
         tr.emitting = true;
 
         float t = 0f;
 
-        // Improved dash easing (fast → slow but still long)
         while (t < dashTime)
         {
             t += Time.deltaTime;
 
-            // Start at 135% speed → end at 65% speed
             float ease = Mathf.Lerp(1.35f, 0.65f, t / dashTime);
 
             rb.linearVelocity = dashDir * dashStrength * ease;
 
-            // Jump cancels dash
             if (Input.GetButtonDown("Jump"))
             {
                 isDashing = false;
@@ -300,9 +270,6 @@ public class PlayerMovement : MonoBehaviour
         momentum = Mathf.Clamp(momentum, 1f, maxMomentum);
     }
 
-    // -------------------------
-    // HELPERS
-    // -------------------------
     private bool IsGrounded()
     {
         return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
@@ -327,10 +294,26 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    // ⭐ FINAL FREEZE — stops EVERYTHING instantly
     public void FreezePlayer()
     {
+        if (dashRoutine != null)
+        {
+            StopCoroutine(dashRoutine);
+            dashRoutine = null;
+        }
+
+        isDashing = false;
+        isWallJumping = false;
+
         rb.linearVelocity = Vector2.zero;
         rb.gravityScale = 0f;
+
+        rb.constraints = RigidbodyConstraints2D.FreezeAll;
+
         enabled = false;
+
+        if (tr != null)
+            tr.emitting = false;
     }
 }
